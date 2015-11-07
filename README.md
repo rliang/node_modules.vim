@@ -10,7 +10,7 @@ per-project. This plugin enables a vim-wide node_modules directory, adding its
 With vim-plug:
 ```vim
 let modules = 'eslint tern'
-Plug 'rliang/node_modules.vim' {'do': 'npm up ' . modules}
+Plug 'rliang/node_modules.vim' {'do': 'npm i ' . modules}
 ```
 Then just run `PlugUpdate!` each time you add a new module.
 
